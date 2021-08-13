@@ -19,7 +19,7 @@ namespace claseTeorica_1208
                 Console.WriteLine($"introduce el numero");
                 numbers[j] = Convert.ToInt32(Console.ReadLine());
             }
-            Console.WriteLine("Los numeros");
+            Console.WriteLine("Los numeros que se ingresan son");
             foreach (int item in numbers)
             {
                 Console.WriteLine(item);
