@@ -24,6 +24,12 @@ namespace claseTeorica_1208
             numbers[1] = 10;
             numbers[2] = 15;
 
+            //capturar los valores a almacenar en el array
+            for (int x = 0; x < numbers.Length; x++)
+            {
+                Console.Write("Escriba el valor para el elemento {0}: ", x);
+
+            }
             //ciclo while
             int i = 0;
             Console.WriteLine("IMPRIME ELEMENTOS CON WHILE");
