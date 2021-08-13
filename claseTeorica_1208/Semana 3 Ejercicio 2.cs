@@ -25,7 +25,7 @@ namespace claseTeorica_1208
               sumatoria = sumatoria + numbers[f];
           
             }
-            Console.WriteLine(" Los numeros que usten ha ingresado son: ");
+            Console.WriteLine(" Los numeros que se han ingresado son: ");
             foreach (int intem in numbers)  
             {
                 Console.WriteLine(intem);
